@@ -1,0 +1,57 @@
+body{
+    font-family: Microsoft JhengHei;
+    background: #f4f4f4;
+}
+.header{
+    background-image: url(../img/1024x768.jfif);
+    position: relative;
+    padding: 50px;
+    text-align: center;
+}
+h1{
+    color: white;
+    letter-spacing: 25px;
+    height: 200px;
+    margin-top: 50px;
+}
+.hotAreas{
+    background-color: white;
+    width: 500px;
+    position: absolute;
+    left: 380px;
+    bottom: -40px;
+    text-align: center;
+    border-radius:10px;
+}
+.container{
+    margin-top: 50px;
+}
+footer{
+    text-align: center;
+    background-color: gray;
+    color: white;
+}
+.cardList{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+.card{
+    width: 500px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.title{
+    font-size: 30px;
+}
+
+.showArea{
+    text-align: center;
+}
+.btn{
+    margin-bottom: 10px;
+    background-color: #e7eeea;
+}
